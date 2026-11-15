@@ -30,7 +30,6 @@ Designed with an **obsidian midnight glassmorphism** aesthetic—blending twilig
 
 ## 🖼️ Preview
 
-> *Tip: Drop two screenshots into a `/screenshots` folder in your repo to display them here.*
 
 | Full New Tab Dashboard | Docked Side Panel Widget |
 | :---: | :---: |
