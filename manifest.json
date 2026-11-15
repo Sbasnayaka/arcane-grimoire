@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Arcane Grimoire — Daily Dashboard",
+  "version": "1.0.0",
+  "description": "Dark fantasy personal tracker for New Tab and Side Panel with Firebase Firestore sync.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Open Arcane Grimoire"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "sidePanel",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://firestore.googleapis.com/*",
+    "https://identitytoolkit.googleapis.com/*",
+    "https://securetoken.googleapis.com/*"
+  ]
+}
