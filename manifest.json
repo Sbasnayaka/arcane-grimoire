@@ -18,10 +18,10 @@
   "action": {
     "default_title": "Open Arcane Grimoire",
     "default_icon": {
-      "16": "icons/icon-16.png",
-      "32": "icons/icon-32.png",
-      "48": "icons/icon-48.png",
-      "128": "icons/icon-128.png"
+      "16": "icons/icon-16.jpg",
+      "32": "icons/icon-32.jpg",
+      "48": "icons/icon-48.jpg",
+      "128": "icons/icon-128.jpg"
     }
   },
   "background": {
